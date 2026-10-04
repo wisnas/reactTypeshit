@@ -1,35 +1,30 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import sigmagrozy from "./assets/sigmabmatcha.jpg"
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      <div className="w-full flex m-8 gap-6">
+       
+        <img src={sigmagrozy} className="h-62 w-62 object-cover rounded-xl" alt="sigmagrozy logo" />
 
+        <div className="flex flex-col gap-2">
+          <h1 className="text-2xl text-sky-50">
+            Ondřej Brož
+          </h1>
+          <h2 className="text-sky-500">
+            sigma
+          </h2>
+
+          <text className="text-sky-500 w-7/8">
+            jsem goat studuju na spš pork a miluju chodidla
+          </text>
+        </div>
+
+      </div>
+    
       <div className="ticks"></div>
 
       <section id="next-steps">
@@ -39,20 +34,7 @@ function App() {
           </svg>
           <h2>Documentation</h2>
           <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+
         </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
