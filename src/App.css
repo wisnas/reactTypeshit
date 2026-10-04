@@ -78,19 +78,17 @@
     height: 22px;
   }
 
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    text-align: center;
-  }
+  flex-direction: column;
+  text-align: center;
+  
 }
 
 #docs {
   border-right: 1px solid var(--border);
 
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
+  border-right: none;
+  border-bottom: 1px solid var(--border);
+  
 }
 
 #next-steps ul {
@@ -125,7 +123,7 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  
     margin-top: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -138,7 +136,6 @@
       width: 100%;
       justify-content: center;
       box-sizing: border-box;
-    }
   }
 }
 
