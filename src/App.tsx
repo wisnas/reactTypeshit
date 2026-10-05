@@ -88,7 +88,7 @@ function App() {
       <div className="flex items-center">
         <div className="flex w-full gap-5 overflow-x-auto p-6 scrollbar-thin">
 
-          <div className="h-96 w-60 shrink-0 flex-col overflow-hidden 
+          <div className="h-96 w-60 shrink-0 overflow-hidden 
           rounded-2xl border border-cyan-500/20 bg-linear-to-b from-cyan-950/80 p-5 
           duration-300 hover:-translate-y-1 hover:border-cyan-400/40">
             <h3 className="text-lg font-semibold text-cyan-50">
@@ -99,7 +99,7 @@ function App() {
               Recovering from my injury and finally getting back into regular football training
             </p>
           </div>
-          <div className="h-96 w-60 shrink-0 flex-col overflow-hidden 
+          <div className="h-96 w-60 shrink-0 l overflow-hidden 
           rounded-2xl border border-cyan-500/20 bg-linear-to-b from-cyan-950/80 p-5 
           duration-300 hover:-translate-y-1 hover:border-cyan-400/40">
             <h3 className="text-lg font-semibold text-cyan-50">
@@ -110,7 +110,7 @@ function App() {
               Started building the in-game interface, heavily inspired by the CRT computer terminals from Alien: Isolation. Focusing on cathode-ray tube aesthetics.
             </p>
           </div>
-          <div className="h-96 w-60 shrink-0 flex-col overflow-hidden 
+          <div className="h-96 w-60 shrink-0 overflow-hidden 
           rounded-2xl border border-cyan-500/20 bg-linear-to-b from-cyan-950/80 p-5 
           duration-300 hover:-translate-y-1 hover:border-cyan-400/40">
             <h3 className="text-lg font-semibold text-cyan-50">
@@ -134,7 +134,7 @@ function App() {
       <div className="flex items-center">
         <div className="w-full gap-5 overflow-x-auto p-6 scrollbar-thin">
 
-          <div className="h-96 w-60 shrink-0 flex-col overflow-hidden 
+          <div className=" flex h-96 w-60 shrink-0 flex-col overflow-hidden 
           rounded-2xl border border-red-500/20 bg-linear-to-b from-red-950/80 p-5 
           duration-300 hover:-translate-y-1 hover:border-red-400/40 items-center justify-center">
             <h3 className="text-lg font-semibold text-red-50">
